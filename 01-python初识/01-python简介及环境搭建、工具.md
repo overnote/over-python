@@ -1,6 +1,6 @@
-### Python简介
+# Python简介
 
-#### Python的历史
+## Python的历史
 
 1. 1989年圣诞节：Guido von Rossum开始写Python语言的编译器。
 2. 1991年2月：第一个Python编译器（同时也是解释器）诞生，它是用C语言实现的（后面又出现了Java和C#实现的版本Jython和IronPython，以及PyPy、Brython、Pyston等其他实现），可以调用C语言的库函数。在最早的版本中，Python已经提供了对“类”，“函数”，“异常处理”等构造块的支持，同时提供了“列表”和“字典”等核心数据类型，同时支持以模块为基础的拓展系统。
@@ -10,7 +10,7 @@
 
 目前我们使用的Python 3.7.x的版本是在2018年发布的，Python的版本号分为三段，形如A.B.C。其中A表示大版本号，一般当整体重写，或出现不向后兼容的改变时，增加A；B表示功能更新，出现新功能时增加B；C表示小的改动（如修复了某个Bug），只要有修改就增加C。如果对Python的历史感兴趣，可以查看一篇名为《Python简史》的博文。
 
-#### Python的优缺点
+## Python的优缺点
 
 Python的优点很多，简单的可以总结为以下几点。
 
@@ -28,9 +28,9 @@ Python的缺点主要集中在以下几点。
 - 2.代码无法加密，但是现在的公司很多都不是卖软件而是卖服务，这个问题会被淡化。
 - 3.在开发时可以选择的框架太多（如Web框架就有100多个），有选择的地方就有错误。
 
-### 搭建编程环境
+## 搭建编程环境
 
-#### Windows环境
+### Windows环境
 
 可以在Python官方网站下载到Python的Windows安装程序（exe文件）。  
 
@@ -39,7 +39,7 @@ Python的缺点主要集中在以下几点。
 - 强烈建议使用自定义的安装路径并保证路径中没有中文。
 - 安装完成会看到“Setup was successful”的提示，但是在启动Python环境时可能会因为缺失一些动态链接库文件而导致Python解释器无法运行，常见的问题主要是api-ms-win-crt*.dll缺失以及更新DirectX之后导致某些动态链接库文件缺失，前者可以参照《api-ms-win-crt*.dll缺失原因分析和解决方法》一文讲解的方法进行处理或者直接在微软官网下载Visual C++ Redistributable for Visual Studio 2015文件进行修复，后者可以下载一个DirectX修复工具进行修复。
 
-###Linux环境
+### Linux环境
 
 Linux环境自带了Python 2.x版本，但是如果要更新到3.x的版本，可以在Python的官方网站下载Python的源代码并通过源代码构建安装的方式进行安装，具体的步骤如下所示。
 
@@ -70,13 +70,13 @@ Linux环境自带了Python 2.x版本，但是如果要更新到3.x的版本，�
     # ... 此处省略下面的代码 ...
     source .bash_profile
 
-#### MacOS环境
+### MacOS环境
 
 MacOS也是自带了Python 2.x版本的，可以通过Python的官方网站提供的安装文件（pkg文件）安装3.x的版本。默认安装完成后，可以通过在终端执行python命令来启动2.x版本的Python解释器，可以通过执行python3命令来启动3.x版本的Python解释器。
 
-#### 从终端运行Python程序
+### 从终端运行Python程序
 
-#### 确认Python的版本
+### 确认Python的版本
 
 在终端或命令行提示符中键入下面的命令。
 
@@ -88,19 +88,19 @@ MacOS也是自带了Python 2.x版本的，可以通过Python的官方网站提�
     print(sys.version_info)
     print(sys.version)
 
-#### 编写Python源代码
+### 编写Python源代码
 
 可以用文本编辑工具（推荐使用Sublime、Atom、TextMate、VSCode等高级文本编辑工具）编写Python源代码并将其命名为hello.py保存起来，代码内容如下所示。
 
     print('hello, world!')
 
-#### 运行程序
+### 运行程序
 
 切换到源代码所在的目录并执行下面的命令，看看屏幕上是否输出了"hello, world!"。
 
     python hello.py
 
-#### IPython - 更好的交互式编程工具
+### IPython - 更好的交互式编程工具
 
 IPython是一种基于Python的交互式解释器。相较于原生的Python Shell，IPython提供了更为强大的编辑和交互功能。可以通过Python的包管理工具pip安装IPython和Jupyter，具体的操作如下所示。
 
@@ -110,8 +110,8 @@ IPython是一种基于Python的交互式解释器。相较于原生的Python She
 
     python -m pip install ipython jupyter
 
-#### Anaconda - 一站式的数据科学神器
+### Anaconda - 一站式的数据科学神器
 
 Anaconda是专注于数据科学的Python发行版本，其包含了conda、Python等190多个科学包及其依赖项。因为包含的内容较多，Anaconda的下载文件比较大，如果只需要其中一部分的包，或者需要节省带宽或存储空间，也可以使用Miniconda这个较小的发行版（仅包含conda和 Python）。对于学习数据科学的人来说，Anaconda是绝对的神器，有兴趣的读者可以阅读《致Python初学者们 - Anaconda入门使用指南》一文进行了解。
 
-#### PyCharm - Python开发神器
+### PyCharm - Python开发神器
