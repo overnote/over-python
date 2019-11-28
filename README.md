@@ -19,6 +19,12 @@
 机器学习方向：
 - [《集体智慧编程》](https://book.douban.com/subject/26348921/)
 
+深度学习方向：
+- [《深度学习入门》](https://book.douban.com/subject/30270959/)
+- [《深度学习》](https://book.douban.com/subject/27087503/)
+- [《Python深度学习》](https://book.douban.com/subject/30293801/)
+- [《Scikit-Learn与TensorFlow机器学习实用指南》](https://book.douban.com/subject/27154347/)
+
 ## 笔记说明
 
 笔记的重要作者：
