@@ -8,7 +8,7 @@ Python 2 or Python 3：
 
 建议选择 Python 2.x 的情况：
 - 部署环境不可控，Python版本不能自行选择
-- 某些工具库还没有提供支持 Python 3.x。
+- 
 - 如果选择使用 Python 3.x，需要确定要用的工具库支持新版本。
     
 ## 二 python2与python3区别  

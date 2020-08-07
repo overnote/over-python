@@ -23,6 +23,8 @@
 笔记的重要作者：
 - [luckypgirl](https://github.com/luckypgirl)
 
+由于Python往往作为大家的第二语言来学习，这里只会对Python的语法做基础的罗列，不会由浅入深的讲解。  
+
 ## 附录：笔记汇总
 
 **OverNote**地址：https://github.com/overnote    

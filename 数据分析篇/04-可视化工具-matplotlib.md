@@ -22,7 +22,7 @@ plt.show()
 ```
 
 运行结果：  
-![](../images/python/07-02.png)  
+![](../images/python/aa-02.png)  
 
 
 ## 二 matplotlib 简单使用
