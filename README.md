@@ -1,3 +1,12 @@
+## 笔记说明
+
+这只是一份最基础的草稿，不推荐阅读！  
+
+由于Python往往作为大家的第二语言来学习，这里只会对Python的语法做基础的罗列，不会由浅入深的讲解。  
+
+笔记的重要作者：
+- [luckypgirl](https://github.com/luckypgirl)   
+
 ## 资料推荐
 
 语法篇：
@@ -25,25 +34,19 @@ Web篇：
 - [《Scikit-Learn与TensorFlow机器学习实用指南》](https://book.douban.com/subject/27154347/)
 - [《Python深度学习：基于PyTorch》](https://book.douban.com/subject/34873001/)
 - [《Python数据科学手册》](https://book.douban.com/subject/27667378/)
-- [《Python神经网络编程》](https://book.douban.com/subject/30192800/)
+- [《Python神经网络编程》](https://book.douban.com/subject/30192800/) 
 
-## 笔记说明
-
-笔记的重要作者：
-- [luckypgirl](https://github.com/luckypgirl)   
-
-由于Python往往作为大家的第二语言来学习，这里只会对Python的语法做基础的罗列，不会由浅入深的讲解。  
-
-## 附录：笔记汇总
+## 附
 
 **OverNote**地址：https://github.com/overnote    
 **笔者的地址**：https://github.com/ruyuejun  
 
 **OverNote分类**：  
-- [Golang](https://github.com/overnote/over-golang)：详尽的Go领域笔记：Go语法、Go并发编程、GoWeb编程、Go微服务等
-- [服务端架构](https://github.com/overnote/over-server)：分布式与微服务笔记，附Nginx、Mysql、Redis等常用服务端技术
-- [大前端](https://github.com/overnote/over-javascript)：包含JavaScript、Node.js、vue/react、微信开发、Flutter等大前端技术
-- [Python与机器学习](https://github.com/overnote/over-python)：Python相关笔记，完善中  
-- [数据结构与算法](https://github.com/overnote/over-algorithm)：以C/Go实现为主记录数据结构与算法的笔记
+- [Golang](https://github.com/overnote/over-golang)：详尽的 Go 领域笔记：Go 语法、Go 并发编程、GoWeb 编程、Go 微服务等
+- [大前端](https://github.com/overnote/over-javascript)：包含 JavaScript、Node.js、vue/react、微信开发、Flutter 等大前端技术
+- [数据结构与算法](https://github.com/overnote/over-algorithm)：以 C/Go 实现为主记录数据结构与算法的笔记
+- [服务端架构](https://github.com/overnote/over-server)：分布式与微服务笔记，附 Nginx、Mysql、Redis 等常用服务端技术
+- [Python 与机器学习](https://github.com/overnote/over-python)：Python 相关笔记，完善中
 - [Linux](https://github.com/overnote/over-linux)：计算机组成原理、操作系统、计算机网络、编译原理基础学科笔记
 - [大数据](https://github.com/overnote/over-bigdata)：大数据笔记，完善中
+- [flutter](https://github.com/overnote/over-flutter)
